@@ -1,0 +1,101 @@
+/* style.css */
+*{
+    font-family: "PT Serif", serif;
+     
+}
+body {
+    background-color: rgb(189, 229, 176);
+}
+    
+img {
+    
+ /* -webkit-box-reflect: below 20px; */
+}
+h1 {
+    color: rgb(244, 17, 17);
+    text-align: center;
+    /*letter-spacing: -2px;*/
+    text-decoration: dotted;
+    /*text text-decoration-color:*/
+   text-decoration-thickness: 5px;
+    letter-spacing: 3px;
+      
+    
+}
+
+
+h2{
+     font-family: "Alan Sans", sans-serif;
+    text-align:right;
+     /* using align, shadow,color,text-decoration*/
+    text-shadow:none;
+    font-size: larger;
+    color: brown;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    
+}
+
+h3{
+    color: rgb(12, 12, 231);
+    background-color: rgb(103, 195, 207);
+    text-align:left;
+    text-shadow: 2px;
+    background-image: -moz-radial-gradient();
+    /*webkit-box-reflect: below 30px;*/
+    
+}
+
+.imgOuter{
+    /* margin: 0px auto; */
+    text-align: center;
+
+}
+#main{
+    background-color: red;
+}
+img {
+    width: 540px;
+    height: auto;
+    border-radius: 9px;
+    margin: 0px auto;
+
+      
+}
+#para1{
+      /*padding: 10px;
+    margin: 10px;
+    margin: 12%;*/
+    /*white-space: nowrap;*/
+    font-size: large color red;
+    font-style: italic;
+}
+.list{
+list-style-type:lower-alpha;
+}
+.secondList{
+    list-style-type: circle;
+}
+span{
+    display: inline-block;
+}
+.one ,.two,.three,.four{
+    width: 300px;
+    height: 400px;
+    background-color: red;
+    display: inline-block;
+}
+.one{
+   visibility: hidden;
+}
+.parent{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.divs{ 
+    background-color: orange;
+    width: 500px ;
+    height: 200px;
+}
